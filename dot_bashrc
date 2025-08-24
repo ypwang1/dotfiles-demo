@@ -156,6 +156,8 @@ if [[ "$TERM" == "xterm" ]]; then
     PROMPT_COMMAND="${PROMPT_COMMAND:+$PROMPT_COMMAND; }precmd"
 fi
 
+eval "$(mise activate bash)"
+
 #Yupeng's customization
 
 set -o vi
